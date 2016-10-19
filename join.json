@@ -1,0 +1,36 @@
+{
+    "joinStars": [
+        {
+            "serial": "1",
+            "id": "08095524685",
+            "name": "Peter Green",
+            "dept": "CSE",
+            "intake": "10th",
+            "avatar": "a0.jpg"
+        },
+        {
+            "serial": "2",
+            "id": "08095544685",
+            "name": "Robert Lamberton",
+            "dept": "EEE",
+            "intake": "11th",
+            "avatar": "a1.jpg"
+        },
+        {
+            "serial": "3",
+            "id": "08095594685",
+            "name": "Erich S. Gruen",
+            "dept": "ENG",
+            "intake": "10th",
+            "avatar": "a2.jpg"
+        },
+        {
+            "serial": "4",
+            "id": "08095024685",
+            "name": "Obi Plabon",
+            "dept": "BBA",
+            "intake": "20th",
+            "avatar": "a0.jpg"
+        }
+    ]
+}
