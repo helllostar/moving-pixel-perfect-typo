@@ -403,7 +403,7 @@ th {
     width: 100%;
     height: 100%;
 
-    background-image: url(/imgs/cute-cat-sm.jpg); 
+    background-image: url(/moving-pixel-perfect-typo/imgs/cute-cat-sm.jpg); 
     background-repeat: no-repeat;
     background-position: top;
     -webkit-background-size: cover;
@@ -411,7 +411,7 @@ th {
 }
 @media screen and (min-width: 769px) {
     .App {
-        background-image: url(/imgs/cute-cat.jpg);
+        background-image: url(/moving-pixel-perfect-typo/imgs/cute-cat.jpg);
     }
 }
 .App__inner {
