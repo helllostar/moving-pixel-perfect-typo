@@ -611,6 +611,33 @@ th {
     font-size: 17px;
 }
 
+.Registration {
+    margin-top: 80px;
+    padding-top: 60px;
+
+    text-align: left; 
+
+    border-top: 1px solid rgba(0, 0, 0, .1);
+}
+.Registration__heading {
+    margin-bottom: 20px;
+
+    letter-spacing: .03em;
+
+    font-size: 26px;
+    font-weight: 600;
+}
+.Registration__details {
+    padding: 30px 40px; 
+
+    letter-spacing: .03em;
+
+    color: #555;
+    background-color: rgba(56, 207, 142, .1);
+
+    font-size: 17px;
+}
+
 .Join {
     margin-top: 80px;
     padding-top: 60px;
@@ -633,6 +660,11 @@ th {
     color: #555;
 
     font-size: 17px;
+}
+.Join__description span {
+    padding: 5px 8px; 
+
+    background-color: rgba(56, 207, 142, .5);
 }
 
 table {
