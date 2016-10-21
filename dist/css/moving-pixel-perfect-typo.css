@@ -578,6 +578,9 @@ th {
     color: #10442e;
     background-color: #61d9a5;
 }
+.Button + span {
+    margin-left: 5px;
+}
 
 .Heading-init {
     width: 42px;
