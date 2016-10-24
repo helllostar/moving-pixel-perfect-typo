@@ -1,36 +1,364 @@
 {
-    "joinStars": [
-        {
-            "serial": "1",
-            "id": "08095524685",
-            "name": "Peter Green",
-            "dept": "CSE",
-            "intake": "10th",
-            "avatar": "a0.jpg"
-        },
-        {
-            "serial": "2",
-            "id": "08095544685",
-            "name": "Robert Lamberton",
-            "dept": "EEE",
-            "intake": "11th",
-            "avatar": "a1.jpg"
-        },
-        {
-            "serial": "3",
-            "id": "08095594685",
-            "name": "Erich S. Gruen",
-            "dept": "ENG",
-            "intake": "10th",
-            "avatar": "a2.jpg"
-        },
-        {
-            "serial": "4",
-            "id": "08095024685",
-            "name": "Obi Plabon",
-            "dept": "BBA",
-            "intake": "20th",
-            "avatar": "a0.jpg"
-        }
-    ]
+  "joinStars": [
+    {
+      "serial": "1",
+      "id": "13142103115",
+      "firstname": "Nazmul",
+      "lastname": "Hasan",
+      "email": "chommoollookkoo@gmail.com",
+      "dept": "CSE",
+      "intake": "26th Intake"
+    },
+    {
+      "serial": "2",
+      "id": "13143103073",
+      "firstname": "Avrojit",
+      "lastname": "Das",
+      "email": "avrojit.cse.bubt@gmail.com",
+      "dept": "CSE",
+      "intake": "27th Intake"
+    },
+    {
+      "serial": "3",
+      "id": "14152103140",
+      "firstname": "Md. Mehedi Hasan ",
+      "lastname": "Akash ",
+      "email": "mehaakmehi@gmail.com",
+      "dept": "CSE",
+      "intake": "29th Intake"
+    },
+    {
+      "serial": "4",
+      "id": "13143103057",
+      "firstname": "Rukshana ",
+      "lastname": "Amin",
+      "email": "rukshana_ruhi@outlook.com",
+      "dept": "CSE",
+      "intake": "27th Intake"
+    },
+    {
+      "serial": "5",
+      "id": "14152103081",
+      "firstname": "Rafid Reza",
+      "lastname": "Nabil",
+      "email": "rafid.reza.nabil@gmail.com",
+      "dept": "CSE",
+      "intake": "29th Intake"
+    },
+    {
+      "serial": "6",
+      "id": "14152103139",
+      "firstname": "Sudipto",
+      "lastname": "Roy",
+      "email": "sudiptoroy1122@gmail.com",
+      "dept": "CSE",
+      "intake": "29th Intake"
+    },
+    {
+      "serial": "7",
+      "id": "14152103160",
+      "firstname": "Sharfuzzaman",
+      "lastname": "Sayem",
+      "email": "sayembubt@gmail.com",
+      "dept": "CSE",
+      "intake": "29th Intake"
+    },
+    {
+      "serial": "8",
+      "id": "15163203058",
+      "firstname": "Mim Ahmed",
+      "lastname": "Joy",
+      "email": "joyahmed277@gmail.com",
+      "dept": "CSE",
+      "intake": "24th Intake"
+    },
+    {
+      "serial": "9",
+      "id": "14152103177",
+      "firstname": "Kaniz Fatema",
+      "lastname": "Mow",
+      "email": "samiyamow613@gmail.com",
+      "dept": "CSE",
+      "intake": "29th Intake"
+    },
+    {
+      "serial": "10",
+      "id": "11122108075",
+      "firstname": "Salseng",
+      "lastname": "Mrong",
+      "email": "salsengmrong@live.com",
+      "dept": "EEE",
+      "intake": "5th Intake"
+    },
+    {
+      "serial": "11",
+      "id": "13143203005",
+      "firstname": "Nurun",
+      "lastname": "Nahar",
+      "email": "bilunahar555@gmail.com",
+      "dept": "CSE",
+      "intake": "18th Intake"
+    },
+    {
+      "serial": "12",
+      "id": "12132203066",
+      "firstname": "Maynuddin",
+      "lastname": "Rahman",
+      "email": "mayn4475@gmail.com",
+      "dept": "CSE",
+      "intake": "14th Intake"
+    },
+    {
+      "serial": "13",
+      "id": "11123101053",
+      "firstname": "Shafi",
+      "lastname": "Islam",
+      "email": "sopno.shafiq@gmai.com",
+      "dept": "BBA",
+      "intake": "28th Intake"
+    },
+    {
+      "serial": "14",
+      "id": "14152103192",
+      "firstname": "Hasib",
+      "lastname": "Hosen",
+      "email": "hasibhosen7612@gmail.com",
+      "dept": "CSE",
+      "intake": "29th Intake"
+    },
+    {
+      "serial": "15",
+      "id": "10112101180",
+      "firstname": "Esrat",
+      "lastname": "Bristy",
+      "email": "iamesratjahan@gmail.com",
+      "dept": "BBA",
+      "intake": "24th Intake"
+    },
+    {
+      "serial": "16",
+      "id": "14151103002",
+      "firstname": "Md. Yasin",
+      "lastname": "Khan",
+      "email": "riders.mdyasinkhan1@gmail.com",
+      "dept": "CSE",
+      "intake": "28th Intake"
+    },
+    {
+      "serial": "17",
+      "id": "16171103052",
+      "firstname": "Asif",
+      "lastname": "Iqbal",
+      "email": "sheikhprotik@gmail.com",
+      "dept": "CSE",
+      "intake": "34th Intake"
+    },
+    {
+      "serial": "18",
+      "id": "15162103228",
+      "firstname": "Sheikh Amik Ullah",
+      "lastname": "Prottoy",
+      "email": "prottoy0987@gmail.com",
+      "dept": "CSE",
+      "intake": "32th Intake"
+    },
+    {
+      "serial": "19",
+      "id": "12131103048",
+      "firstname": "Md. Emtiaz",
+      "lastname": "Zahid",
+      "email": "emtiazzahid@gmail.com",
+      "dept": "CSE",
+      "intake": "22th Intake"
+    },
+    {
+      "serial": "20",
+      "id": "16171103017",
+      "firstname": "Reazul",
+      "lastname": "Islam",
+      "email": "reazulislam137@gmail.com",
+      "dept": "CSE",
+      "intake": "34th Intake"
+    },
+    {
+      "serial": "21",
+      "id": "13143103093",
+      "firstname": "Samia Sultana",
+      "lastname": "Pushpo",
+      "email": "pushporani67@gmail.com",
+      "dept": "CSE",
+      "intake": "27th Intake"
+    },
+    {
+      "serial": "22",
+      "id": "16171103018",
+      "firstname": "Mohammed",
+      "lastname": "Imraan Hossain",
+      "email": "md.imraanhossan@gmail.com",
+      "dept": "CSE",
+      "intake": "34th Intake"
+    },
+    {
+      "serial": "23",
+      "id": "15162103268",
+      "firstname": "Sayeef",
+      "lastname": "Rahman",
+      "email": "akib0155@gmail.com",
+      "dept": "CSE",
+      "intake": "32th Intake"
+    },
+    {
+      "serial": "24",
+      "id": "15162103234",
+      "firstname": "Sabbir",
+      "lastname": "Hasan",
+      "email": "sabbir.h1912@gmail.com",
+      "dept": "CSE",
+      "intake": "32th Intake"
+    },
+    {
+      "serial": "25",
+      "id": "13143103062",
+      "firstname": "Masum",
+      "lastname": "Khan",
+      "email": "ccane31@gmail.com",
+      "dept": "CSE",
+      "intake": "27th Intake"
+    },
+    {
+      "serial": "26",
+      "id": "13143103088",
+      "firstname": "Tasnova",
+      "lastname": "Chowdhury",
+      "email": "tasnova0303@gmail.com",
+      "dept": "CSE",
+      "intake": "27th Intake"
+    },
+    {
+      "serial": "27",
+      "id": "12133103041",
+      "firstname": "Md Rezwanul",
+      "lastname": "Haque",
+      "email": "rezwanul.cse@gmail.com",
+      "dept": "CSE",
+      "intake": "24th Intake"
+    },
+    {
+      "serial": "28",
+      "id": "13143103057",
+      "firstname": "Rukshana",
+      "lastname": "Ruhi",
+      "email": "rukshana.amin.m@gmail.com",
+      "dept": "CSE",
+      "intake": "27th Intake"
+    },
+    {
+      "serial": "29",
+      "id": "15161203097",
+      "firstname": "Zubayer ",
+      "lastname": "Hossain ",
+      "email": "zubayerh4@gmail.com",
+      "dept": "CSE",
+      "intake": "22th Intake"
+    },
+    {
+      "serial": "30",
+      "id": "11123103015",
+      "firstname": "Zakir",
+      "lastname": "Hasan",
+      "email": "zhs3015@gmail.com",
+      "dept": "CSE",
+      "intake": "21th Intake"
+    },
+    {
+      "serial": "31",
+      "id": "12131103023",
+      "firstname": "Humaied",
+      "lastname": "Md. Ullah",
+      "email": "humaied_ullah@yahoo.com",
+      "dept": "CSE",
+      "intake": "22th Intake"
+    },
+    {
+      "serial": "32",
+      "id": "11123103008",
+      "firstname": "Sadik",
+      "lastname": "Shiblee",
+      "email": "sadik_2012@yahoo.com",
+      "dept": "CSE",
+      "intake": "21th Intake"
+    },
+    {
+      "serial": "33",
+      "id": "11122103014",
+      "firstname": "Faisal",
+      "lastname": "Ahmed",
+      "email": "m.faisal674@gmail.com",
+      "dept": "CSE",
+      "intake": "20th Intake"
+    },
+    {
+      "serial": "34",
+      "id": "12132203065",
+      "firstname": "Mehedi",
+      "lastname": "Hasan",
+      "email": "mehedi4475@gmail.com",
+      "dept": "CSE",
+      "intake": "14th Intake"
+    },
+    {
+      "serial": "35",
+      "id": "15162203005",
+      "firstname": "Habibur",
+      "lastname": "Rahman",
+      "email": "habib41juwel@gmail.com",
+      "dept": "CSE",
+      "intake": "23th Intake"
+    },
+    {
+      "serial": "36",
+      "id": "13141103036",
+      "firstname": "S.M.Tariqul",
+      "lastname": "Islam",
+      "email": "s.m.tariqulislam.tariq@gmail.com",
+      "dept": "CSE",
+      "intake": "25th Intake"
+    },
+    {
+      "serial": "37",
+      "id": "11122103034",
+      "firstname": "T.M.Rithwanul",
+      "lastname": "Islam",
+      "email": "rithwanul@gmail.com",
+      "dept": "CSE",
+      "intake": "20th Intake"
+    },
+    {
+      "serial": "38",
+      "id": "14153103001",
+      "firstname": "Antu",
+      "lastname": "Roy",
+      "email": "anuvhob.roy888@gmail.com",
+      "dept": "CSE",
+      "intake": "30th Intake"
+    },
+    {
+      "serial": "39",
+      "id": "14152103016",
+      "firstname": "Sabbir",
+      "lastname": "Hossain",
+      "email": "sabbirbubt@yahoo.com",
+      "dept": "CSE",
+      "intake": "29th Intake"
+    },
+    {
+      "serial": "40",
+      "id": "14152103215",
+      "firstname": "Sharif",
+      "lastname": "Hossain",
+      "email": "sharif.h10@gmail.com",
+      "dept": "CSE",
+      "intake": "29th Intake"
+    }
+  ]
 }

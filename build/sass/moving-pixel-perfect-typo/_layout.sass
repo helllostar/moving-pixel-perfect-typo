@@ -182,7 +182,13 @@
         font-size: 17px
         letter-spacing: 0.03em
         span
+<<<<<<< HEAD
             background-color: rgba($primary, .5)
+=======
+            color: $primary
+        .hashtag
+            background-color: rgba($primary, .1)
+>>>>>>> master
             padding: 5px 8px
 
 table
@@ -219,21 +225,29 @@ td
     margin-bottom: 10px
 
     &__hint
-        font-size: 13px
-        letter-spacing: 0.06em
-        font-weight: 300
-        color: $gray-light
+        // font-size: 13px
+        // letter-spacing: 0.06em
+        // // font-weight: 300
+        // // color: $gray
+        // background-color: rgba($primary, .1)
+        font-size: 15px
+        letter-spacing: 0.03em
+        color: $primary
+        background-color: rgba($primary, .1)
+        border: 1px solid rgba($primary, .3)
+        padding: 10px 20px
+        margin: 40px 0 10px
 
     &__result
         float: left
         display: inline-block
-        // padding: 15px
         width: 60px
         height: 43px
         line-height: 43px
-        background-color: rgba($black, .03)
-        border: 1px solid rgba($black, .1)
-        border-right-width: 0
+        background-color: rgba($primary, .3)
+        color: $primary
+        border: 1px solid rgba($primary, .3)
+        // border-right-width: 0
         text-align: center
 
     &__control
@@ -245,8 +259,7 @@ td
             display: block
             width: 100%
             padding: 10px 15px
-            border: 1px solid rgba($black, .1)
-            // background-color: rgba($primary, .1)
+            border: 1px solid rgba($primary, .3)
             background-color: transparent
             // margin-bottom: 10px
 
@@ -286,3 +299,7 @@ td
             margin-left: 10px
         &:hover
             opacity: .8
+
+.Disabled
+    pointer-events: none
+    cursor: default

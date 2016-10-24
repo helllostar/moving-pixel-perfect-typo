@@ -980,7 +980,8 @@ var JsSearch;
         // search.tokenizer = new JsSearch.StopWordsTokenizer(search.tokenizer);
         // search.searchIndex = new JsSearch.TfIdfSearchIndex('id');
         search.addIndex('id');
-        search.addIndex('name');
+        search.addIndex('firstname');
+        search.addIndex('lastname');
         search.addIndex('dept');
         search.addIndex('intake');
         search.addDocuments(allStars);
@@ -1004,7 +1005,7 @@ var JsSearch;
         serialColumn.innerText = star.serial;
 
         var nameColumn = document.createElement('td');
-        nameColumn.innerHTML = star.name;
+        nameColumn.innerHTML = star.firstname + ' ' + star.lastname;
 
         var idColumn = document.createElement('td');
         idColumn.innerHTML = star.id;
@@ -1047,6 +1048,9 @@ var JsSearch;
 
     searchInput.oninput = searchStars;
 
+    // My add class
+
+
     var updateStarCount = function(numStars) {
       starCountBadge.innerText = numStars;
     };
@@ -1071,14 +1075,14 @@ var JsSearch;
         // Total Tickets
         // Avaiable
         var totalStar = document.getElementById('TotalStar');
-        var avaiableTickets = document.getElementById('AvaiableTickets');
+        // var avaiableTickets = document.getElementById('AvaiableTickets');
 
-        var totalTickets = 50;
+        // var totalTickets = 40;
         var bookedTickets = allStars.length;
-        var avaiable = totalTickets - bookedTickets;
+        // var avaiable = totalTickets - bookedTickets;
 
         totalStar.innerText = bookedTickets;
-        avaiableTickets.innerText = avaiable;
+        // avaiableTickets.innerText = avaiable;
 
 
         updateStarCount(allStars.length);
