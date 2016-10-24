@@ -665,9 +665,12 @@ th {
     font-size: 17px;
 }
 .Join__description span {
+    color: #38cf8e;
+}
+.Join__description .hashtag {
     padding: 5px 8px; 
 
-    background-color: rgba(56, 207, 142, .5);
+    background-color: rgba(56, 207, 142, .1);
 }
 
 table {
@@ -717,12 +720,16 @@ td:first-child {
     margin-bottom: 10px;
 }
 .Search__hint {
-    letter-spacing: .06em;
+    margin: 40px 0 10px; 
+    padding: 10px 20px;
 
-    color: #999; 
+    letter-spacing: .03em;
 
-    font-size: 13px;
-    font-weight: 300;
+    color: #38cf8e;
+    border: 1px solid rgba(56, 207, 142, .3);
+    background-color: rgba(56, 207, 142, .1);
+
+    font-size: 15px;
 }
 .Search__result {
     display: inline-block;
@@ -733,9 +740,9 @@ td:first-child {
 
     text-align: center; 
 
-    border: 1px solid rgba(0, 0, 0, .1);
-    border-right-width: 0;
-    background-color: rgba(0, 0, 0, .03);
+    color: #38cf8e;
+    border: 1px solid rgba(56, 207, 142, .3);
+    background-color: rgba(56, 207, 142, .3);
 
     line-height: 43px;
 }
@@ -750,7 +757,7 @@ td:first-child {
     padding: 15px;
     padding: 10px 15px;
 
-    border: 1px solid rgba(0, 0, 0, .1);
+    border: 1px solid rgba(56, 207, 142, .3);
     background-color: transparent;
 }
 
@@ -805,6 +812,11 @@ td:first-child {
 }
 .Organiszer__logo:hover {
     opacity: .8;
+}
+
+.Disabled {
+    cursor: default; 
+    pointer-events: none;
 }
 
 
