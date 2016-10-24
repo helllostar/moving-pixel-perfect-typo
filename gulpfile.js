@@ -72,7 +72,7 @@ gulp.task('sass', function(){
 
 // gulp inject
 gulp.task('inject', function(){
-    var source = gulp.src(['dist/css/'+pkg.name+'.css', 'dist/js/'+pkg.name+'.js'], {read: false});
+    var source = gulp.src(['dist/css/'+pkg.name+'.min.css', 'dist/js/'+pkg.name+'.min.js'], {read: false});
     gulp.src('index.html')
         .pipe(inject(source, {relative: true}))
         .pipe(gulp.dest('./'))
