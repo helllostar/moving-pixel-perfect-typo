@@ -665,18 +665,12 @@ th {
     font-size: 17px;
 }
 .Join__description span {
-<<<<<<< HEAD
-    padding: 5px 8px; 
-
-    background-color: rgba(56, 207, 142, .5);
-=======
     color: #38cf8e;
 }
 .Join__description .hashtag {
     padding: 5px 8px; 
 
     background-color: rgba(56, 207, 142, .1);
->>>>>>> master
 }
 
 table {
