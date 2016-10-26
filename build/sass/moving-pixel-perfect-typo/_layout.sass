@@ -135,6 +135,31 @@
     &__object
         fill: $primary
 
+.Sponsors
+    // background-color: rgba($black, .02)
+    margin-top: 30px
+    text-align: center
+    &__heading
+        text-transform: uppercase
+        font-weight: 400
+        font-size: 13px
+        letter-spacing: .08em
+        color: $gray
+    &__details
+        &-logo
+            width: 150px
+            display: inline-block
+            border: 1px solid rgba($black, .3)
+            margin: 20px 10px
+            img
+                display: block
+            a
+                opacity: 1
+                transition: none $speed $easing
+                transition-property: opacity
+                &:hover
+                    opacity: .8
+
 .Brief
     border-top: 1px solid rgba($black, .1)
     padding-top: 60px
