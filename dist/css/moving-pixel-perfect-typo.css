@@ -590,6 +590,43 @@ th {
     fill: #38cf8e;
 }
 
+.Sponsors {
+    margin-top: 30px;
+
+    text-align: center;
+}
+.Sponsors__heading {
+    letter-spacing: .08em;
+    text-transform: uppercase;
+
+    color: #555; 
+
+    font-size: 13px;
+    font-weight: 400;
+}
+.Sponsors__details-logo {
+    display: inline-block;
+
+    width: 150px;
+    margin: 20px 10px; 
+
+    border: 1px solid rgba(0, 0, 0, .3);
+}
+.Sponsors__details-logo img {
+    display: block;
+}
+.Sponsors__details-logo a {
+    -webkit-transition: none 86ms ease-out;
+            transition: none 86ms ease-out;
+    -webkit-transition-property: opacity;
+            transition-property: opacity; 
+
+    opacity: 1;
+}
+.Sponsors__details-logo a:hover {
+    opacity: .8;
+}
+
 .Brief {
     margin-top: 80px;
     padding-top: 60px;
